@@ -1,0 +1,44 @@
+body{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-image: url('./9748620.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.result{
+  font-family: sans-serif;
+  color: rgb(86, 179, 233)
+}
+.grid{
+  display: flex;
+  flex-wrap: wrap;
+  width: 840px;
+  height: 840px;
+}
+.grid div{
+  width: 40px;
+  height: 40px;
+}
+.invaders{
+  background-image: url('./spaceship.png');
+  background-size: cover;
+  background-color: transparent;
+}
+.shooter{
+  background-image: url('./jet-plane.png');
+  background-size: cover;
+  background-color: transparent;
+  transform: scale(2.5);
+}
+.laser{
+  background-image: url('./bullet.png');
+  background-size: cover;
+  background-color: transparent;
+  transform:  rotate(-45deg) scale(.65);
+}
+.boom{
+  background-image: url('./explosion.png');
+  background-size: cover;
+  background-color: transparent;
+}
